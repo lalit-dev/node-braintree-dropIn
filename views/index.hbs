@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- includes the Braintree JS client SDK -->
+  <script src="https://js.braintreegateway.com/web/dropin/1.22.1/js/dropin.min.js"></script>
+
+  <!-- includes jQuery -->
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+  <div id="dropin-wrapper">
+    <div id="checkout-message"></div>
+    <div id="dropin-container"></div>
+    <button id="submit-button">Submit payment</button>
+  </div>
+  <script src="/javascripts/app.js"></script>
+</body>
+
+</html>
